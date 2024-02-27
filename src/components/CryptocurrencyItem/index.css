@@ -1,0 +1,31 @@
+.li-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.logo-cont {
+  display: flex;
+  align-items: center;
+  width: 55%;
+}
+.para-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+}
+.c-logo {
+  width: 20px;
+  margin-right: 8px;
+}
+.li-paras {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+@media (min-width: 768px) {
+  .li-paras {
+    font-size: 18px;
+  }
+}
